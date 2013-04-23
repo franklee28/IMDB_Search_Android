@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IMDBSearch</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_input">Enter a Title</string>
+
+    <string-array name="type">
+        <item>All Types</item>
+        <item>Feature Film</item>
+        <item>TV Series</item>
+        <item>Video Game</item>
+    </string-array>
+
+    <string name="search">Search</string>
+    <string name="movie_search">Movie Search</string>
+    <string name="title_activity_display_movie">DisplayMovieActivity</string>
+    <string name="post_facebook">Post to facebook</string>
+    <string name="text">TextView</string>
+    <string name="detail">Details</string>
+    <string name="app_id">312878965480698</string>
+    <string name="no_result">No Movie Found!</string>
+
+</resources>

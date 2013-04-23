@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Homework #8</title>
+<style type="text/css">
+.caption { font-size:30px; font-weight:700; padding-bottom:20px; }
+</style>
+<script type="text/javascript">
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script src="homework8.js" >
+</script>
+
+<div align="center">
+<form name="movie" method="Post" onsubmit="return makeRequest();">
+<table border="2">
+<caption class="caption">Movie Search</caption>
+<tr>
+<td style="border-right:none;border-bottom:none;padding:20px 0px 0px 20px;">
+Title:
+</td>
+<td style="border-left:none;border-bottom:none;padding:20px 20px 0px 10px;">
+<input type="text" name="title" size=40 />
+</td>
+</tr>
+<tr>
+<td style="border-right:none;border-bottom:none;border-top:none;padding:20px 0px 0px 20px;">
+Media Type:
+</td>
+<td style="border-top:none;border-left:none;border-bottom:none;padding:20px 20px 0px 10px;">
+<select name="title_type">
+<option selected>All Types</option>
+<option>Feature Film</option>
+<option>TV Series</option>
+<option>Video Game</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan=2 align="center" style="border-top:none;padding:20px 20px 0px 20px;">
+<input type="submit" value="Search" />
+</td>
+</tr>
+</table>
+</form>
+</div>
+<div id="result">
+</div>
+</body>
+</html>
